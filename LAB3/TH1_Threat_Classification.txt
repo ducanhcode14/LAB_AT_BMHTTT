@@ -1,0 +1,22 @@
+﻿TH1 - PHAN LOAI 5 NGUON DE DOA
+
+1. HANH DONG VO Y
+Tiêu chí: Hành động không chủ ý của người dùng có thể gây mất hoặc thay đổi dữ liệu/hệ thống.
+Ví dụ: Xóa nhầm dữ liệu trong C:\LAB3.
+
+2. HANH DONG CO Y
+Tiêu chí: Hành động có chủ đích nhằm khai thác điểm yếu hoặc gây ảnh hưởng đến hệ thống.
+Ví dụ: Dò mật khẩu, phishing hoặc sử dụng phần mềm độc hại.
+
+3. THAM HOA TU NHIEN
+Tiêu chí: Sự kiện tự nhiên gây gián đoạn hoặc làm hỏng hạ tầng CNTT.
+Ví dụ: Cháy, ngập hoặc các sự kiện tự nhiên khác.
+
+4. LOI KY THUAT
+Tiêu chí: Sự cố phát sinh từ phần cứng, phần mềm hoặc thành phần kỹ thuật.
+Ví dụ: Lỗi đĩa hoặc lỗi phần mềm.
+
+5. LOI QUAN LY
+Tiêu chí: Sự cố do quy trình, phân quyền hoặc quản lý hệ thống không phù hợp.
+Ví dụ: Cấp quyền sai hoặc thiếu quy trình kiểm soát quyền.
+

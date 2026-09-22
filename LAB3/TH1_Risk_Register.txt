@@ -1,0 +1,18 @@
+﻿TH1 - RISK REGISTER
+Lab 3: Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
+
+Asset | Vulnerability | Threat | Risk | Control | Nguồn đe dọa
+
+Thông tin xác thực tài khoản lab | Mật khẩu ngắn hoặc bị nhập vào phần mềm không tin cậy | Dò mật khẩu / keylogging / phishing | Mất quyền truy cập hoặc chiếm tài khoản | Mật khẩu dài, MFA ở hệ thống hỗ trợ, endpoint protection, audit log | Hành động cố ý
+
+Dữ liệu trong C:\LAB3 | Thiếu backup / kiểm soát thay đổi | Xóa nhầm, mã độc, lỗi đĩa | Mất hoặc thay đổi dữ liệu | Backup, least privilege, hash | Hành động vô ý / Hành động cố ý / Lỗi kỹ thuật
+
+Hệ điều hành Windows 11 của VM | Lỗ hổng phần mềm hoặc cấu hình không an toàn | Khai thác lỗ hổng | Mất tính bảo mật, toàn vẹn hoặc khả dụng của hệ thống | Cập nhật, Microsoft Defender, firewall, least privilege | Lỗi kỹ thuật / Hành động cố ý
+
+Dịch vụ và tiến trình trên VM | Phần mềm/dịch vụ không được kiểm soát | Phần mềm độc hại hoặc tiến trình bất thường | Thay đổi hệ thống hoặc mất dữ liệu | Defender, Sysmon, Process Explorer, Autoruns | Hành động cố ý / Lỗi kỹ thuật
+
+Hạ tầng lưu trữ VM | Hỏng đĩa hoặc sự cố phần cứng | Lỗi phần cứng | Mất khả năng truy cập dữ liệu | Backup và snapshot | Lỗi kỹ thuật
+
+Môi trường vận hành VM | Sự cố vật lý hoặc thiên tai | Cháy, ngập, mất điện hoặc sự kiện tự nhiên | Gián đoạn hoặc mất tài sản CNTT | Backup, snapshot, kế hoạch khôi phục | Thảm họa tự nhiên
+
+Quản lý tài khoản và quyền | Phân quyền không phù hợp hoặc thiếu quy trình | Cấp quyền sai / quản lý không đầy đủ | Truy cập trái phép hoặc thay đổi dữ liệu | Least privilege, audit log, quy trình quản lý quyền | Lỗi quản lý

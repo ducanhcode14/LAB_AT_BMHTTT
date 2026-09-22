@@ -1,0 +1,47 @@
+﻿TH1 - TRA LOI CAU HOI
+
+Cau 1. Phan biet Asset, Vulnerability, Threat, Risk va Attack
+
+Ví dụ: dữ liệu trong C:\LAB3.
+
+- Asset (Tài sản): Dữ liệu được lưu trữ trong C:\LAB3.
+- Vulnerability (Lỗ hổng): Dữ liệu có thể thiếu backup hoặc thiếu kiểm soát thay đổi.
+- Threat (Mối đe dọa): Một người dùng có thể cố ý xóa dữ liệu hoặc phần mềm độc hại có thể làm thay đổi dữ liệu.
+- Risk (Rủi ro): Có khả năng dữ liệu bị mất hoặc bị thay đổi, gây ảnh hưởng đến tính toàn vẹn và khả năng sử dụng dữ liệu.
+- Attack (Tấn công): Hành động khai thác điểm yếu, ví dụ cố ý sử dụng một cơ chế hoặc phần mềm để xóa/thay đổi dữ liệu.
+
+Threat và Risk không giống nhau:
+Threat là yếu tố hoặc sự kiện có khả năng gây thiệt hại; Risk là khả năng mối đe dọa khai thác lỗ hổng của tài sản và gây ra tổn thất.
+
+
+Cau 2. Phan loai nam nguon de doa
+
+1. Hành động vô ý:
+Ví dụ: người dùng xóa nhầm dữ liệu trong C:\LAB3.
+Tiêu chí: hành động không có chủ đích gây sự cố.
+
+2. Hành động cố ý:
+Ví dụ: cố ý dò mật khẩu, phishing hoặc sử dụng phần mềm độc hại.
+Tiêu chí: hành động có chủ đích nhằm khai thác điểm yếu hoặc gây ảnh hưởng đến hệ thống.
+
+3. Thảm họa tự nhiên:
+Ví dụ: cháy, ngập hoặc sự kiện tự nhiên làm gián đoạn hạ tầng.
+Tiêu chí: nguyên nhân xuất phát từ sự kiện tự nhiên.
+
+4. Lỗi kỹ thuật:
+Ví dụ: lỗi phần cứng, lỗi đĩa hoặc lỗi phần mềm.
+Tiêu chí: sự cố phát sinh từ thành phần kỹ thuật.
+
+5. Lỗi quản lý:
+Ví dụ: phân quyền sai hoặc thiếu quy trình kiểm soát quyền.
+Tiêu chí: nguyên nhân xuất phát từ quản lý, quy trình hoặc phân quyền.
+
+
+Cau 3. Moi quan he giua Risk Register va cac TH tiep theo
+
+Risk Register xác định tài sản, điểm yếu, mối đe dọa, rủi ro và biện pháp kiểm soát trước khi thực hiện các tình huống kỹ thuật. Các TH tiếp theo cung cấp bằng chứng thử nghiệm an toàn để quan sát, phát hiện, ứng phó và phục hồi.
+
+
+KET LUAN TH1
+
+TH1 đã xác định các tài sản của VM, các điểm yếu liên quan, mối đe dọa, rủi ro và biện pháp kiểm soát. Các nguồn đe dọa được phân loại thành năm nhóm: hành động vô ý, hành động cố ý, thảm họa tự nhiên, lỗi kỹ thuật và lỗi quản lý.
