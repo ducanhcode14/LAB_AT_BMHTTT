@@ -1,0 +1,6 @@
+LAB6/config.xml
+*.vmdk
+*.iso
+*.key
+*.pem
+.env
